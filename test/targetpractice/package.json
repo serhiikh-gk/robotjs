@@ -1,0 +1,17 @@
+{
+	"name": "targetpractice",
+	"description": "Electron application to test robotjs functionality (copy from https://github.com/octalmage/targetpractice)",
+	"version": "0.0.7",
+	"main": "main.js",
+	"dependencies": {
+		"electron": "38.2.1",
+		"jquery": "3.7.1"
+	},
+	"devDependencies": {
+		"tape": "5.9.0"
+	},
+	"scripts": {
+		"start": "electron main.js",
+		"test": "node test.js"
+	}
+}
